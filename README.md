@@ -20,15 +20,15 @@ To get started with the Terraform configurations:
 
 1. **Clone the Repository**:
 
-git clone https://github.com/yourusername/terraform-repository.git
+   git clone https://github.com/yourusername/terraform-repository.git
 
 
 2. **Install Terraform**:
-Follow the official Terraform installation guide.
+   Follow the official Terraform installation guide.
 
 3. **Initialize Terraform**: Navigate to the project directory and run:
 
-terraform init
+   terraform init
 
 
 4. **Apply Configuration**: Execute the following command to create resources:
