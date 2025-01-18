@@ -24,9 +24,9 @@ We welcome contributions in the following ways:
 
 2. **Clone the Repository**:
 
-  Clone your forked repository to your local machine:
+    Clone your forked repository to your local machine:
 
-  git clone https://github.com/yourusername/terraform-repository.git
+    git clone https://github.com/yourusername/terraform-repository.git
 
 3. **Create a Branch**:
 
