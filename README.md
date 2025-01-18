@@ -35,14 +35,6 @@ To get started with the Terraform configurations:
 
    terraform apply
 
-🛠️ ***Available Modules and Configurations**
-
-AWS EC2 Instance: Launch and configure EC2 instances.
-
-VPC Setup: Create a Virtual Private Cloud with subnets, routing, and security groups.
-
-IAM Roles and Policies: Set up user roles and permissions for secure access.
-
 
 📑 **Contributing**
 
