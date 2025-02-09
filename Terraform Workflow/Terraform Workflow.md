@@ -255,12 +255,14 @@ terraform destroy -auto-approve
 
 **Conclusion**
 
-Terraform provides a declarative, repeatable, and scalable approach to infrastructure management. By using Terraform Workflow, DevOps engineers can: ✅ Automate cloud infrastructure provisioning
+Terraform provides a declarative, repeatable, and scalable approach to infrastructure management. By using Terraform Workflow, DevOps engineers can: 
+
+✅ Automate cloud infrastructure provisioning
+
 ✅ Reduce manual configuration errors
 
 ✅ Maintain state and version control for infrastructure
 
 ✅ Scale resources efficiently
-
 
 This workflow is widely used in the industry to manage AWS, Azure, Kubernetes, and other cloud-based infrastructures.
