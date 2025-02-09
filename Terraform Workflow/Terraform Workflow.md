@@ -187,6 +187,7 @@ resource "aws_instance" "web" {
 
 **variables.tf (Define Input Variables)**
 
+```bash
 variable "aws_region" {
   default = "us-east-1"
 }
