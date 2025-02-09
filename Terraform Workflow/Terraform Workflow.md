@@ -17,7 +17,7 @@ Terraform follows a six-step workflow:
    - Configures the backend (like S3 with DynamoDB for remote state storage).
 
    - Ensures Terraform is ready to execute further commands.
-   - 
+
 **Example Command**
 
 ```bash
