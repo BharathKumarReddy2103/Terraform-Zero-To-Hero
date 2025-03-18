@@ -2,7 +2,7 @@
 
 **Introduction**
 
-Secrets management is a critical aspect of modern DevOps workflows, ensuring that sensitive data such as **API tokens, passwords, and certificates** are securely stored and managed. In this guide, we will explore how to integrate **Terraform with HashiCorp Vault**, a widely used secrets management tool.
+**Secrets management** is a critical aspect of modern DevOps workflows, ensuring that sensitive data such as **API tokens, passwords, and certificates** are securely stored and managed. In this guide, we will explore how to integrate **Terraform with HashiCorp Vault**, a widely used secrets management tool.
 
 We will cover:
 
