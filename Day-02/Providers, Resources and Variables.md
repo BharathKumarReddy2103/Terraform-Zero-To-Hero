@@ -271,4 +271,4 @@ In **Day 2**, we covered **Terraform providers, resources, variables, conditiona
 
 If you found this helpful, **share it with others learning Terraform** and **contribute to open-source projects**.
 
-**Happy Coding**🚀
+**Happy Coding** 🚀
