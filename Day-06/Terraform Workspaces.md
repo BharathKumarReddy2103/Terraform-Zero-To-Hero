@@ -240,7 +240,7 @@ o	Add confirmation prompts in CI/CD pipelines to prevent accidental destruction.
 
 **Conclusion**
 
-Terraform Workspaces are a **game-changer for DevOps engineers**, allowing seamless management of multiple environments without duplicating Terraform projects. By implementing Workspaces, you can:
+**Terraform Workspaces** are a **game-changer for DevOps engineers**, allowing seamless management of multiple environments without duplicating Terraform projects. By implementing Workspaces, you can:
 
 ✅ **Avoid redundant Terraform configurations**
 
