@@ -190,43 +190,74 @@ Instead of modifying terraform.tfvars manually, use the terraform.workspace vari
 
 **3. Do Not Confuse Workspaces with Separate AWS Accounts**
 
-Workspaces **only separate state files**; they do not isolate resources across AWS accounts. For managing multiple AWS accounts, use Terraform Cloud or remote state backends.
+Workspaces **only separate state files**; they do not isolate resources across AWS accounts. For managing multiple AWS accounts, **use Terraform Cloud or remote state backends.**
 
-4. Ensure Correct Workspace Selection
-Before running terraform apply, always verify the selected workspace:
+**4. Ensure Correct Workspace Selection**
+
+Before running terraform apply, **always verify the selected workspace:**
+
+```sh
 terraform workspace show
+```
+
 This prevents accidental changes to the wrong environment.
-5. Use Remote State for Teams
-For team collaboration, use Terraform Cloud or an S3 backend to manage workspaces centrally.
-________________________________________
-Common Mistakes and Debugging Tips
-1. Terraform Updating Instead of Creating a New Instance
-•	If Terraform is modifying the existing instance instead of creating a new one, ensure workspace state separation.
+
+**5. Use Remote State for Teams**
+
+For **team collaboration**, use **Terraform Cloud or an S3 backend** to manage workspaces centrally.
+
+---
+
+**Common Mistakes and Debugging Tips**
+
+**1. Terraform Updating Instead of Creating a New Instance**
+
+•	If Terraform is **modifying the existing instance instead of creating a new one**, ensure **workspace state separation.**
+
 •	Run:
-•	terraform workspace show
+
+```sh
+terraform workspace show
+```
+
 to verify you are in the correct workspace.
-2. Terraform Not Applying Changes Per Workspace
+
+**2. Terraform Not Applying Changes Per Workspace**
+
 •	If changes are not reflecting per workspace, check whether the state files are created separately under terraform.tfstate.d/.
-3. Accidentally Destroying Production Resources
-•	Always verify the workspace before running terraform destroy:
-•	terraform workspace show
+
+**3. Accidentally Destroying Production Resources**
+
+**•	Always verify the workspace** before running terraform destroy:
+
+```sh
+terraform workspace show
+```
+
 o	Add confirmation prompts in CI/CD pipelines to prevent accidental destruction.
-________________________________________
-Conclusion
-Terraform Workspaces are a game-changer for DevOps engineers, allowing seamless management of multiple environments without duplicating Terraform projects. By implementing Workspaces, you can:
-  Avoid redundant Terraform configurations
-  Ensure state separation for different environments
-  Reduce human errors and accidental infrastructure changes
-  Improve scalability and automation
-________________________________________
-Further Reading
-•	Terraform Workspaces Documentation
-•	Best Practices for Managing Terraform State
-•	Terraform CLI Commands
-________________________________________
-Contribute to This Project
-This repository is open for contributions! If you have enhancements, bug fixes, or real-world examples, feel free to:
-•	Open an issue or pull request.
-•	Suggest new Terraform best practices.
-•	Share your own workspace configurations.
-  [GitHub Repository Link] (Add your repo link here)
+
+---
+
+**Conclusion**
+
+Terraform Workspaces are a **game-changer for DevOps engineers**, allowing seamless management of multiple environments without duplicating Terraform projects. By implementing Workspaces, you can:
+
+✅ **Avoid redundant Terraform configurations**
+
+✅ **Ensure state separation for different environments**
+
+✅ **Reduce human errors and accidental infrastructure changes**
+
+✅ **Improve scalability and automation**
+
+---
+
+**Contribute to This Project**
+
+This repository is open for contributions. If you have **enhancements, bug fixes, or real-world examples**, feel free to:
+
+•	Open an **issue** or **pull request.**
+
+•	Suggest **new Terraform best practices.**
+
+•	Share **your own workspace configurations.**
