@@ -253,7 +253,7 @@ In **Day 2**, we covered **Terraform providers, resources, variables, conditiona
 
 **•	Providers** define how Terraform interacts with cloud services.
 
-•**	Resources** represent cloud components like EC2, S3, and VPC.
+**•	Resources** represent cloud components like EC2, S3, and VPC.
 
 **•	Variables** make Terraform configurations reusable and flexible.
 
