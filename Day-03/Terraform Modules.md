@@ -237,7 +237,7 @@ Terraform Modules provide a **powerful way** to organize and manage infrastructu
 
 ✔ **Scale infrastructure efficiently**
 
-By following best practices, using remote modules, and **structuring projects correctly, you can **build scalable, reusable Terraform configurations** that align with **modern DevOps workflows.**
+By following best practices, using remote modules, and **structuring projects correctly**, you can **build scalable, reusable Terraform configurations** that align with **modern DevOps workflows.**
 
 🚀 **Start using Terraform Modules today and make your infrastructure automation efficient**
 
