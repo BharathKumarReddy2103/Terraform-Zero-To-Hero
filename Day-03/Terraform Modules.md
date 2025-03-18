@@ -68,6 +68,7 @@ module "ec2_instance" {
 ```
 
 This approach ensures:
+
 ✔ **Better organization** – Infrastructure is logically separated.
 
 ✔ **Easy debugging** – Developers can focus on individual modules.
