@@ -30,7 +30,7 @@ The challenge:
 
 **Solution**
 
-Terraform provides a built-in command called terraform import, which helps bring existing resources under Terraform's management.
+Terraform provides a built-in command called **terraform import**, which helps bring existing resources under Terraform's management.
 
 **Step 1: Initialize the Terraform Project**
 
