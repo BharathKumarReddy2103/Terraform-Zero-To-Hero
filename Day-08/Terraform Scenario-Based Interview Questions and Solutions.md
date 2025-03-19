@@ -227,4 +227,4 @@ By mastering these scenarios, you not only **prepare for DevOps interviews** but
 
 This article is **open for contributions** If you have additional Terraform migration or drift detection techniques, feel free to **submit a pull request.**
 
-⭐ **Star this repository if you found it helpful**
+⭐ **Star this repository if you found it helpful.**
