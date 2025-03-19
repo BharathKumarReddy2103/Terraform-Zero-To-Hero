@@ -142,7 +142,7 @@ terraform plan
 
 **Option 2: Automating Drift Detection with AWS CloudWatch and Lambda**
 
-To automate drift detection, use **AWS CloudWatch and Lambda functions:**
+To automate drift detection, use **AWS CloudWatch** and **Lambda functions:**
 
 **1.	Enable AWS CloudTrail** to log all API changes to Terraform-managed resources.
 
